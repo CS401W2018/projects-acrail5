@@ -1,0 +1,29 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkmagenta;
+}
+
+footer p {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+#firstpar {
+    color: brown;
+}
+
+.blue {
+    color: blue;
+}
+
+.bigger {
+    font-size: larger;
+}
+
+header {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
