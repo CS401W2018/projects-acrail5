@@ -1,0 +1,21 @@
+body {
+    color: cornflowerblue;
+    font-family: fantasy;
+    font-size: larger;
+    background-color: rgb(65, 62, 74);
+}
+#myanime {
+    color: red;
+}
+p strong {
+    color: rgb(161, 203, 46);
+}
+.Rights {
+    font-style: italic;
+}
+.aqua {
+    color: aqua;
+}
+.liteaqua {
+    color: rgb(122, 194, 194);
+}
