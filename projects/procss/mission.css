@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: ghostwhite;
+    background-image: url(texas.jpg);
+    background-size: cover;
+    font-family: fantasy;
+}
+.blue {
+    background-image: url(blue.jpg);
+}
+.myarea {
+    color: ghostwhite;
+    list-style-image: url(bull.png);
+}
+.flag {
+    background-image: url(texasflag.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+nav a {
+    color: ghostwhite;
+}
+.current {
+    color: crimson;
+}
