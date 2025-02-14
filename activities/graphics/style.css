@@ -10,3 +10,19 @@ main {
 .mylist {
     list-style-type:square;
 }
+.boxa {
+    border: 1cm;
+}
+.fight {
+    width: 200px;
+}
+.fight img {
+    width: 100%;
+}
+header {
+    background-color: bisque;
+    padding: 30px 10px 15px 0;
+    margin-bottom: 25px;
+    width: 80%;
+    overflow: visible;
+}
