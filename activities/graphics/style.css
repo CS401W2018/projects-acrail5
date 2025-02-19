@@ -1,9 +1,8 @@
 body {
     font-family: fantasy;
-    background-image: url(blueback.jpg);
 }
 main {
-    background-image: url(luffy.png);
+    background-image: url(bull.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -25,4 +24,27 @@ header {
     margin-bottom: 25px;
     width: 80%;
     overflow: visible;
+}
+.new {
+    background-color: aqua;
+}
+.solo {
+    float: left;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.solo img {
+    width: 100%;
+}
+.stop {
+    clear: both;
+}
+.lufimg {
+    float: right;
+}
+.roseimg{
+    position: relative;
+    top: 30px;
+    left: 10px;
 }
