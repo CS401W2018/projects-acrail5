@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(255, 0, 0);
+    font-family: monospace;
+}
+.onepiece {
+    float: left;
+    width: 250px;
+    border: thin solid black;
+    border-radius: 0%;
+    box-shadow: 3px 3px 3px black;
+}
+.stop {
+    clear: both;
+}
+.font {
+    font-family: fantasy;
+    text-align: center;
+}
+.size {
+    font-style: italic;
+    font-size:larger;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+    text-shadow: rgb(0, 0, 0);
+    text-align: center;
+}
+.head {
+    background-color: rgb(105, 184, 68);
+    padding: 30px 10px 15px 0;
+    margin-bottom: 25px;
+    width: 99%;
+    height: fit-content;
+    overflow: visible;
+}
+main {
+    background-image: url(oneback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:border-box;
+    background-clip: border-box;
+    color: ghostwhite;
+}
+footer {
+    color: ghostwhite;
+}
+nav a{
+    display: block;
+    padding: 10px 5px;
+    background-color: cyan;
+    border-bottom: thin solid whitesmoke;
+    float: left;
+    margin-left: 10px;
+    color: blue;
+}
+nav a:hover {
+    background-color: blue;
+    color: ghostwhite;
+}
+#wrapper {
+    width: 900px;
+    margin: auto;
+}
