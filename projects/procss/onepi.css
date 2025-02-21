@@ -57,6 +57,10 @@ nav a:hover {
     background-color: blue;
     color: ghostwhite;
 }
+nav {
+    display: flex;
+    justify-content: center;
+}
 #wrapper {
     width: 900px;
     margin: auto;
