@@ -22,7 +22,7 @@ body {
     font-weight: 200;
     line-height: normal;
     text-transform: uppercase;
-    text-shadow: black;
+    text-shadow: none;
     text-align: center;
 }
 .head {
