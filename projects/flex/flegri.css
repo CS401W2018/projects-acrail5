@@ -1,27 +1,24 @@
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.parent {
+nav {
     background-color: brown;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-evenly;
     /*flex-flow: row wrap;*/
 }
-.child {
+nav a {
     background-color: chocolate;
     width: 100px;
     margin: 10px;
-}
-nav {
-    display: flex;
-    background-color: chocolate;
-    justify-content: space-evenly;
-}
-nav a {
     display: block;
-    background-color: gold;
-    color: green;
+    color: black;
     padding: 5px 10px;
+}
+#wrapper {
+    width: 900px;
+    margin: auto;
 }
