@@ -1,0 +1,10 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.parent {
+    background-color: brown;
+    display: flex;
+}
+.child {
+    background-color: chocolate;
+}
