@@ -1,7 +1,13 @@
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-nav {
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.link {
     background-color: brown;
     display: flex;
     flex-direction: row;
@@ -10,15 +16,52 @@ nav {
     justify-content: space-evenly;
     /*flex-flow: row wrap;*/
 }
-nav a {
-    background-color: chocolate;
+.link1 {
     width: 100px;
     margin: 10px;
     display: block;
     color: black;
     padding: 5px 10px;
 }
-#wrapper {
-    width: 900px;
-    margin: auto;
+.wrap {
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.card1 {grid-area: auto;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.card2 {grid-area: auto;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.card3 {grid-area: auto;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.card4 {grid-area: auto;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.card5 {grid-area: auto;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.card6 {grid-area: auto;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.fake {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+img {
+    width: 100%;
 }
