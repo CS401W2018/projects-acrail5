@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: lightcoral;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darksalmon;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+    background-color: ghostwhite;
+}
+.row {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+    width:250px;
+    margin: 10px;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+}
