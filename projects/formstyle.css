@@ -1,0 +1,78 @@
+body {
+    font-family: fantasy;
+    background-color: whitesmoke;
+}
+main {
+    width: auto;
+}
+header, footer {
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+    padding: 15px;
+}
+fieldset {
+    background-color: grey;
+}
+
+legend {
+    background-color: antiquewhite;
+    color: blue;
+    padding: 5px;
+}
+.form-row input:not([type="submit"]) {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(102, 145, 122);
+    
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: antiquewhite;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    background-color: coral;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-row {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+    
+}
+.radio-row {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.form-row label {
+    display:flex;
+    width: 80px;
+    text-align: right;
+}
+
+.form-spacer {
+    width: 80px;
+    text-align: right;
+}
+
+@media ONLY screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+}
