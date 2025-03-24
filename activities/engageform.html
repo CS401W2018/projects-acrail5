@@ -18,7 +18,7 @@
     <main>
         <h2>The form tag has an "action" attribute. What does it do?</h2>
             <p>the destination.</p>
-            <form action="processing.html" method="get">
+            <form action="processing.html" method="get" id="myForm">
                 <fieldset>
                     <legend>Account Info</legend>
                     <div class="form-row">
@@ -74,9 +74,44 @@
             <p>float grid and flex</p>
             <h2>Why does the professor like to use flex?</h2>
             <p>it makes it flexible = as mobile to desktop. it adjust perfectly</p>
+            <hr>
+            <h1>Engagement 3/24</h1>
+            <h2>What is JavaScript? How did it get its name?</h2>
+            <p>JavaScript is a high-level, interpreted programming language primarily used for adding interactivity to web pages</p>
+            <h2>What are the two ways you can run JavaScript?</h2>
+            <p>1. In the DOM document object model or inside a web page and 2. node js runs outside (express.js) </p>
+            <p>JavaScript was originally created in 1995 by Brendan Eich while working at Netscape. It was initially called Mocha, then LiveScript, and finally renamed JavaScript as part of a marketing strategy by Netscape and Sun Microsystems. </p>
+            <h2>What was the most popular front-end js library?</h2>
+            <p>JQuery library, help which browser to use</p>
+            <h2>What is the most popular front-end js library today?</h2>
+            <p>react.js made by facebook. learn about it. add to resume</p>
     </main>
     <footer>
         <p>&copy;2025 Ammon Crail</p>
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+
+            const color = document.getElementById('color').value;
+            const email = document.getElementById('mail').value;
+            const pass = document.getElementById('pass').value;
+
+            if (!color) {
+                alert("You need to enter your color.");
+                return;
+            }
+
+            const formData = {
+                color: color,
+                email: mail,
+                password: pass
+            };
+
+            console.log(formData)
+
+        });
+    </script>
 </body>
 </html>
