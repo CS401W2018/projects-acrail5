@@ -85,33 +85,16 @@
             <p>JQuery library, help which browser to use</p>
             <h2>What is the most popular front-end js library today?</h2>
             <p>react.js made by facebook. learn about it. add to resume</p>
+            <hr>
+            <h1>Engagement 3/28</h1>
+            <h2>What is AJAX?</h2>
+            <p>1. prevents default 2. JS collects data from form 3. JS send data to server 4. JS takes message </p>
+            <h2>Why do you put your JS Code in a separate file?</h2>
+            <p>it makes the form load faster. organize.</p>
     </main>
     <footer>
         <p>&copy;2025 Ammon Crail</p>
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event){
-            event.preventDefault();
-            alert("Form Submitted");
-
-            const color = document.getElementById('color').value;
-            const email = document.getElementById('mail').value;
-            const pass = document.getElementById('pass').value;
-
-            if (!color) {
-                alert("You need to enter your color.");
-                return;
-            }
-
-            const formData = {
-                color: color,
-                email: mail,
-                password: pass
-            };
-
-            console.log(formData)
-
-        });
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
