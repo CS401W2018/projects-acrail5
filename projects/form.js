@@ -3,6 +3,9 @@ document.getElementById('myForm').addEventListener('submit',function(event){
     alert("Form Submitted");
 
     const color = document.getElementById('color').value;
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const state = document.getElementById('state').value;
     const email = document.getElementById('mail').value;
     const pass = document.getElementById('pass').value;
 
