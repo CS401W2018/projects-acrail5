@@ -1,3 +1,118 @@
 body {
     font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+header {
+    background-color: rgb(29, 53, 86);
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+nav {
+    background-color: rgb(69, 123, 157);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav a {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav a.current {
+    background-color: rgb(29, 53, 86);
+}
+
+nav a:hover {
+    background-color: rgb(168, 218, 220);
+    color: rgb(0, 0, 0);
+}
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1px;
+}
+table, th, td {
+    border: 1px solid rgb(49, 49, 49);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.content {
+    flex: 3;
+}
+.sidebar {
+    flex: 1;
+    background-color: rgb(221, 221, 221);
+    padding: 15px;
+    margin-left: 20px;
+}
+
+aside {
+    width: 30%;
+}
+.row {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+    width:70%;
+    row-gap: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: rgb(29, 53, 86);
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        border-bottom: thin solid ghostwhite;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
 }
