@@ -17,8 +17,7 @@ fieldset {
 }
 
 legend {
-    background-color: antiquewhite;
-    color: blue;
+    color: black;
     padding: 5px;
 }
 .form-row input:not([type="submit"]) {

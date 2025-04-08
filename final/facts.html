@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Facts & Form - One Piece</title>
+  <link rel="stylesheet" href="page.css">
+</head>
+<body>
+  <header>
+    <h1>Fun Facts & Your Input</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="characters.html">Main Characters</a>
+    <a href="arcs.html">Story Arcs</a>
+    <a href="facts.html" class="active">Fun Facts</a>
+  </nav>
+  <main class="table">
+    <div class="fan">
+      <h2>Did You Know?</h2>
+      <ul>
+        <li>One Piece holds the Guinness World Record for the most copies published for the same comic book series by a single author.</li>
+        <li>Eiichiro Oda has said the ending of One Piece has already been planned since the beginning.</li>
+        <li>Sanji was originally going to be named "Naruto" before the ramen-loving ninja came along!</li>
+      </ul>
+
+      <form action="oneform.js" method="get" id="fanForm">
+        <fieldset>
+          <legend>We want your opinion</legend>
+          <div class="form-row">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="favorite">Favorite Character:</label>
+            <input type="text" id="favorite" name="favorite" required>
+          </div>
+          <div class="form-row">
+            <label for="arc">Favorite Story Arc:</label>
+            <input type="text" id="arc" name="arc" required>
+          </div>
+          <div class="form-row">
+            <label for="comments">Why do you love One Piece?</label>
+            <textarea name="comments" id="comments"></textarea>
+          </div>
+          <div class="form-row">
+            <div class="form-spacer"></div>
+            <input type="submit">
+          </div>
+      </form>
+      </fieldset>
+    </div>
+</main>
+<footer>
+  <p>&copy; 2025 Ammon Crail</p>
+</footer>
+<script src="oneform.js"></script>
+</body>
+</html>

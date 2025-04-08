@@ -90,6 +90,54 @@ main {
     width:70%;
     row-gap: 10px;
 }
+.fan {
+    padding: 20px;
+    max-width: 800px;
+    margin: 10px;
+  }
+  fieldset {
+    background-color: grey;
+}
+
+legend {
+    color: black;
+    padding: 5px;
+}
+.form-row input:not([type="submit"]) {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(102, 145, 122);
+    
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: antiquewhite;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    background-color: coral;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-row {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+    
+}
+.form-row label {
+    display:flex;
+    width: 80px;
+    text-align: right;
+}
+
+.form-spacer {
+    width: 80px;
+    text-align: right;
+}
 
 @media only screen and (max-width: 900px) {
     .row {
@@ -111,8 +159,20 @@ main {
     }
     nav a {
         border-bottom: thin solid ghostwhite;
+        padding: 5px;
     }
     .card {
         margin-bottom: 20px;
+    }
+    .table {
+        width: 100%;
+    }
+
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
     }
 }
