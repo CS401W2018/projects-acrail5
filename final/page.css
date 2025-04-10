@@ -4,23 +4,27 @@ body {
     padding: 0;
     background-color: whitesmoke;
 }
+
 header {
     background-color: rgb(29, 53, 86);
     color: white;
     padding: 1px;
     text-align: center;
 }
+
 nav {
     background-color: rgb(69, 123, 157);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 nav a {
     color: white;
     padding: 15px;
     text-align: center;
 }
+
 nav a.current {
     background-color: rgb(29, 53, 86);
 }
@@ -29,31 +33,38 @@ nav a:hover {
     background-color: rgb(168, 218, 220);
     color: rgb(0, 0, 0);
 }
+
 .container {
     display: flex;
     max-width: 900px;
     margin: 20px;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1px;
 }
+
 table, th, td {
     border: 1px solid rgb(49, 49, 49);
 }
+
 th, td {
     padding: 10px;
     text-align: left;
 }
+
 caption {
     caption-side: top;
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .content {
     flex: 3;
 }
+
 .sidebar {
     flex: 1;
     background-color: rgb(221, 221, 221);
@@ -64,6 +75,7 @@ caption {
 aside {
     width: 30%;
 }
+
 .row {
     display:flex;
     justify-content: space-around;
@@ -81,6 +93,7 @@ aside {
 main {
     display: flex;
 }
+
 .card {
     display: flex;
     justify-content: space-around;
@@ -90,12 +103,14 @@ main {
     width:70%;
     row-gap: 10px;
 }
+
 .fan {
     padding: 20px;
     max-width: 800px;
     margin: 10px;
-  }
-  fieldset {
+}
+
+fieldset {
     background-color: grey;
 }
 
@@ -103,6 +118,7 @@ legend {
     color: black;
     padding: 5px;
 }
+
 .form-row input:not([type="submit"]) {
     padding: 5px;
     border-radius: 5px;
@@ -128,6 +144,7 @@ legend {
     margin: 5px 0;
     
 }
+
 .form-row label {
     display:flex;
     width: 80px;
@@ -144,6 +161,7 @@ legend {
         flex-direction: column;
         align-items: center;
     }
+    
     .card {
         margin-bottom: 20px;
         width: 90%;
@@ -154,16 +172,20 @@ legend {
     header {
         background-color: rgb(29, 53, 86);
     }
+
     nav {
         flex-direction: column;
     }
+
     nav a {
         border-bottom: thin solid ghostwhite;
         padding: 5px;
     }
+
     .card {
         margin-bottom: 20px;
     }
+
     .table {
         width: 100%;
     }
