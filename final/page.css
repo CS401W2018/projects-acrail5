@@ -33,11 +33,15 @@ nav a:hover {
     background-color: rgb(168, 218, 220);
     color: rgb(0, 0, 0);
 }
-
+.center {
+    text-align: center;
+}
 .container {
     display: flex;
+    flex-direction: column;
     max-width: 900px;
-    margin: 20px;
+    margin: 20px auto;
+    padding: 0 10px;
 }
 
 table {
@@ -154,6 +158,20 @@ legend {
 .form-spacer {
     width: 80px;
     text-align: right;
+}
+
+.stop {
+    clear: both;
+}
+
+.solo {
+    float: left;
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px black;
+}
+.solo img {
+    width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
