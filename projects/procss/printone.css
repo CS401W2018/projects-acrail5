@@ -44,15 +44,11 @@ nav a:hover {
     padding: 0 10px;
 }
 
-table {
-    display: block;
+table, th, td {
+    border: 1px solid rgb(49, 49, 49);
     width: 100%;
     border-collapse: collapse;
     margin-top: 1px;
-}
-
-table, th, td {
-    border: 1px solid rgb(49, 49, 49);
 }
 
 th, td {
@@ -175,47 +171,4 @@ legend {
 }
 img {
     width: 80%;
-}
-
-@media only screen and (max-width: 900px) {
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .card {
-        margin-bottom: 20px;
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    header {
-        background-color: rgb(29, 53, 86);
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    nav a {
-        border-bottom: thin solid ghostwhite;
-        padding: 5px;
-    }
-
-    .card {
-        margin-bottom: 20px;
-    }
-
-    .table {
-        width: 100%;
-    }
-
-    .form-row, .radio-row {
-        flex-direction: column;
-    }
-
-    .form-row label {
-        text-align: left;
-    }
 }
